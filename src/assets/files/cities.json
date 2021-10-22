@@ -1,0 +1,28 @@
+{
+    "data":[
+        {
+            "name":"New York",
+            "image":"new-york.png"
+        },
+        {
+            "name":"London",
+            "image":"london.png"
+        },
+        {
+            "name":"Florence",
+            "image":"florence.png"
+        },
+        {
+            "name":"Seattle",
+            "image":"seattle.png"
+        },
+        {
+            "name":"Oxford",
+            "image":"oxford.png"
+        },
+        {
+            "name":"Rome",
+            "image":"rome.png"
+        }
+    ]
+}

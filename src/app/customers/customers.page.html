@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar color="mycolor">
+    <ion-title>customers</ion-title>
+  </ion-toolbar>
+  <ion-toolbar  color="mycolor">
+    <ion-searchbar placeholder="Search" animated (ionChange)="searchCustomer($event)"></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen>
+  <ion-list *ngIf="permission">
+    <ion-list-header>
+      Recent Conversations
+    </ion-list-header>
+
+    <ion-item *ngFor="let user of searchedUser">
+      <ion-avatar slot="start">
+        <img src="../../assets/customers-img/{{user.image}}">
+      </ion-avatar>
+      <ion-avatar slot="end">
+        <ion-icon name="search-outline"></ion-icon>
+      </ion-avatar>
+      <ion-label>
+        <h2>{{user.name}}</h2>
+        <h3>{{user.state}}</h3>
+        <p>{{user.description}}</p>
+      </ion-label>
+    </ion-item>
+
+  </ion-list>
+
+  <ion-label *ngIf="!permission">Log in</ion-label>
+</ion-content>

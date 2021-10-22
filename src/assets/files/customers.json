@@ -1,0 +1,22 @@
+{
+    "data":[
+        {
+            "name":"Finn",
+            "state":"I'm a big deal",
+            "description":"Listen, I've had a pretty messed up day...",
+            "image":"avatar-finn.png"
+        },
+        {
+            "name":"Han",
+            "state":"I'm a big deal",
+            "description":"Listen, I've had a pretty messed up day...",
+            "image":"avatar-han.png"
+        },
+        {
+            "name":"Rey",
+            "state":"I'm a big deal",
+            "description":"Listen, I've had a pretty messed up day...",
+            "image":"avatar-rey.png"
+        }
+    ]
+}
