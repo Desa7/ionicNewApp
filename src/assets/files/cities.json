@@ -1,28 +1,40 @@
 {
     "data":[
         {
+            "id":1,
             "name":"New York",
-            "image":"new-york.png"
+            "image":"new-york.png",
+            "description": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías."
         },
         {
+            "id":2,
             "name":"London",
-            "image":"london.png"
+            "image":"london.png",
+            "description": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías."
         },
         {
+            "id":3,
             "name":"Florence",
-            "image":"florence.png"
+            "image":"florence.png",
+            "description": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías."
         },
         {
+            "id":4,
             "name":"Seattle",
-            "image":"seattle.png"
+            "image":"seattle.png",
+            "description": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías."
         },
         {
+            "id":5,
             "name":"Oxford",
-            "image":"oxford.png"
+            "image":"oxford.png",
+            "description": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías."
         },
         {
+            "id":6,
             "name":"Rome",
-            "image":"rome.png"
+            "image":"rome.png",
+            "description": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías."
         }
     ]
 }

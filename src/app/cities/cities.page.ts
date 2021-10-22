@@ -12,6 +12,7 @@ import { AlertController, ToastController } from '@ionic/angular';
 export class CitiesPage implements OnInit {
 
   cities: any = [];
+  token: string = localStorage.getItem("token");
 
   constructor(
     private router: Router,
@@ -21,6 +22,9 @@ export class CitiesPage implements OnInit {
   ) { }
 
   ngOnInit() {
+    console.log("token:", this.token)
+    localStorage.removeItem("token"); // borrar unico elemento
+    //localStorage.clear(); // borrar todo el contenido de LS
     this.getCities().subscribe(res => {
       console.log("Res: ", res);
       this.cities = res;

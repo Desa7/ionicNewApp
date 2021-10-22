@@ -8,6 +8,13 @@
 </ion-header>
 
 <ion-content fullscreen>
+
+  <ion-content>
+    <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+      <ion-refresher-content refreshingSpinner="bubbles"></ion-refresher-content>
+    </ion-refresher>
+  </ion-content>
+
   <ion-list *ngIf="permission">
     <ion-list-header>
       Recent Conversations
